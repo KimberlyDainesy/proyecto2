@@ -1,0 +1,64 @@
+.contenedor{
+    font-size: 400%;
+    display: flex;
+    width: 700px;
+    height: 520px;
+    color: rgb(2, 0, 0);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(239, 148, 1);
+    
+}
+.botones #incr{
+font-size: 0.4em; 
+font-family: cursive;
+font-weight: bold;
+color: rgb(165, 110, 0);
+background: white;
+width: 100px;
+height: 40px;
+}
+button{
+    margin: 1px;
+
+}
+.botones #decir{
+    font-size: 0.4em; 
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(165, 110, 0);
+    background: white;
+    width: 100px;
+    height: 40px;
+    }
+    .botones #reset{
+        font-size: 0.4em; 
+        font-family: cursive;
+        font-weight: bold;
+        color: rgb(165, 110, 0);
+        background: white;
+        width: 150px;
+        height: 40px;
+        }
+        .contenedor {
+            height: 50%;
+         width: 50%;
+            background-image: url("4.jpg");
+          background-size: cover;
+            background-repeat:no-repeat;
+           background-position: 0px  0px;
+          }
